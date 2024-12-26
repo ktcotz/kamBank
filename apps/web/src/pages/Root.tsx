@@ -1,3 +1,9 @@
+import { Button } from '@./ui';
+
 export const Root = () => {
-  return <div>PAGE ROOT!</div>;
+  return (
+    <div>
+      <Button>Button</Button>
+    </div>
+  );
 };
