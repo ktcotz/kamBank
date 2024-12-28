@@ -7,7 +7,7 @@ export const Logo = () => {
       <img
         src="./images/logo.png"
         alt="Logo"
-        width={32}
+        width={100}
         height={32}
         className="h-8 w-auto"
       />
