@@ -3,6 +3,8 @@
     "home": "Strona główna",
     "about": "O nas",
     "contact": "Kontakt",
-    "cta": "Zaloguj się"
+    "cta": "Zaloguj się",
+    "hamburgerClose": "Zamknij menu główne",
+    "hamburgerOpen": "Otwórz menu główne"
   }
 }

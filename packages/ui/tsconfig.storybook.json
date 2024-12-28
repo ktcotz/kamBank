@@ -27,7 +27,6 @@
     "src/**/*.stories.tsx",
     "src/**/*.stories.mdx",
     ".storybook/*.js",
-    ".storybook/*.ts",
-    "src/lib/button/button.stories"
+    ".storybook/*.ts"
   ]
 }

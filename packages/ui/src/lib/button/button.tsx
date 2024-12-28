@@ -9,8 +9,8 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          'text-white bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2',
-        link: 'text-gray-700 hover:text-red-600 hover:bg-gray-50 transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2',
+          'text-white bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-600 focus-visible:ring-offset-2',
+        link: 'text-gray-700 hover:text-red-600 hover:bg-gray-50 transition-colors duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-600 focus-visible:ring-offset-2',
       },
       size: {
         default: 'h-9 px-4 py-2',

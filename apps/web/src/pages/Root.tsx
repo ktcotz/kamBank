@@ -10,13 +10,26 @@ export const Root = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar>
-        <Navbar.Logo />
-        <Navbar.List items={rootPageLayoutLinks}>
-          <Button asChild size="lg">
-            <Link to={GlobalRoutes.Home}>{t('navigation.cta')}</Link>
-          </Button>
-        </Navbar.List>
+        <Navbar.Trapper>
+          <div className="flex justify-between items-center h-16">
+            <Navbar.Logo />
+            <Navbar.List items={rootPageLayoutLinks}>
+              <Button asChild size="lg">
+                <Link to={GlobalRoutes.Home}>{t('navigation.cta')}</Link>
+              </Button>
+            </Navbar.List>
+            <Navbar.Hamburger />
+          </div>
+          <Navbar.MobileMenu>
+            <Navbar.List items={rootPageLayoutLinks} isMobileMenu={true}>
+              <Button asChild size="lg">
+                <Link to={GlobalRoutes.Home}>{t('navigation.cta')}</Link>
+              </Button>
+            </Navbar.List>
+          </Navbar.MobileMenu>
+        </Navbar.Trapper>
       </Navbar>
+      <button>asd</button>
     </div>
   );
 };
