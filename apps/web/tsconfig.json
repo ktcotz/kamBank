@@ -9,7 +9,9 @@
     "types": ["vite/client"],
     "lib": ["DOM"],
     "allowImportingTsExtensions": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext"
   },
   "files": [],
   "include": [],

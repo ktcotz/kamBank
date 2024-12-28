@@ -113,7 +113,7 @@
       "library": {
         "style": "tailwind",
         "linter": "eslint",
-        "unitTestRunner": "jest"
+        "unitTestRunner": "vitest"
       }
     }
   }
