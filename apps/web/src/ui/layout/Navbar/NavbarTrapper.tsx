@@ -11,7 +11,9 @@ export const NavbarTrapper = ({ children }: NavbarTrapperProps) => {
 
   if (isMenuOpen) {
     return (
-      <FocusTrap>
+      <FocusTrap
+        focusTrapOptions={{ tabbableOptions: { displayCheck: 'none' } }}
+      >
         <div>{children}</div>
       </FocusTrap>
     );
