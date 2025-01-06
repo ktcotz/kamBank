@@ -7,6 +7,6 @@ type WrapperProps = {
 };
 
 export const Wrapper = ({ children, className }: WrapperProps) => {
-  const base = 'max-w-7xl mx-auto';
+  const base = 'max-w-7xl mx-auto w-full';
   return <div className={clsx(className, base)}>{children}</div>;
 };

@@ -6,5 +6,11 @@
     "cta": "Log in",
     "hamburgerClose": "Close main menu",
     "hamburgerOpen": "Open main menu"
+  },
+  "hero": {
+    "title-start": "Manage your finances at",
+    "title-end": "their best",
+    "description": "Discover our revolutionary platform that is changing the way you manage your finances. Join us and be part of the future today.",
+    "alt-image": "Transactions made with filtering options"
   }
 }
