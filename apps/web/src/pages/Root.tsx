@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { GlobalRoutes } from './../ui/shared/types/types';
 import { ButtonAnimated, Wrapper } from './../ui/shared/ui';
+import { LanguageSwitcher } from './../ui/shared/ui/LanguageSwitcher';
 
 export const Root = () => {
   const { t } = useTranslation();
@@ -15,6 +16,7 @@ export const Root = () => {
           <div className="flex justify-between items-center h-16">
             <Navbar.Logo />
             <Navbar.List items={rootPageLayoutLinks}>
+              <LanguageSwitcher />
               <Button asChild size="lg">
                 <Link to={GlobalRoutes.Home}>{t('navigation.cta')}</Link>
               </Button>
@@ -23,6 +25,7 @@ export const Root = () => {
           </div>
           <Navbar.MobileMenu>
             <Navbar.List items={rootPageLayoutLinks} isMobileMenu={true}>
+              <LanguageSwitcher />
               <Button asChild size="lg">
                 <Link to={GlobalRoutes.Home}>{t('navigation.cta')}</Link>
               </Button>
@@ -56,14 +59,22 @@ export const Root = () => {
               </div>
             </div>
           </div>
-          <div className="mt-2 lg:mt-0">
-            <img
-              src="./images/hero.png"
-              alt={t('hero.alt-image')}
-              width={600}
-              height={350}
-              className="rounded-lg shadow-xl transition-transform duration-600 ease-in-out hover:scale-105"
-            />
+          <div className="mt-2 lg:mt-0 flex items-center justify-center">
+            <picture>
+              <source
+                srcSet="./images/hero-mobile.png"
+                media="(max-width:768px)"
+                width={600}
+                height={355}
+              />
+              <img
+                src="./images/hero.png"
+                alt={t('hero.alt-image')}
+                width={600}
+                height={355}
+                className="rounded-lg shadow-xl transition-transform duration-600 ease-in-out hover:scale-105"
+              />
+            </picture>
           </div>
         </div>
       </Wrapper>

@@ -12,5 +12,12 @@
     "title-end": "their best",
     "description": "Discover our revolutionary platform that is changing the way you manage your finances. Join us and be part of the future today.",
     "alt-image": "Transactions made with filtering options"
+  },
+  "language": {
+    "select": "Select language",
+    "name": "Language",
+    "more": "More languages",
+    "close": "Close language select",
+    "current": "Current language"
   }
 }

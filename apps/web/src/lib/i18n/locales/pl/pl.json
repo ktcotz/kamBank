@@ -12,5 +12,12 @@
     "title-end": "najlepszym wydaniu",
     "description": " Odkryj naszą rewolucyjną platformę, która zmienia sposób, w jaki zarządzasz swoimi finansami. Dołącz do nas i bądź częścią przyszłości już dziś.",
     "alt-image": "Wykonane transakcje wraz z możliwością filtrowania"
+  },
+  "language": {
+    "select": "Wybierz język",
+    "name": "Język strony",
+    "more": "Więcej języków",
+    "close": "Zamknij wybór języków",
+    "current": "Aktualny język"
   }
 }
