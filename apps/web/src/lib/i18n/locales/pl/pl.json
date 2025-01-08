@@ -19,5 +19,11 @@
     "more": "Więcej języków",
     "close": "Zamknij wybór języków",
     "current": "Aktualny język"
+  },
+  "gallery": {
+    "santander": "Santander Consumer Bank",
+    "rest": "Rest Bank",
+    "mbank": "mBank",
+    "pko": "PKO Bank Polski"
   }
 }

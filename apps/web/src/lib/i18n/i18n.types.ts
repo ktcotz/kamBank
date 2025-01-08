@@ -19,3 +19,7 @@ type RootTranslationsMessages<T> = T[keyof T];
 export type NavigationI18NHandler = RootTranslationsMessages<
   RootTranslationsKey<'navigation.', 'navigation'>
 >;
+
+export type GalleryImageI18NHandler = RootTranslationsMessages<
+  RootTranslationsKey<'gallery.', 'gallery'>
+>;

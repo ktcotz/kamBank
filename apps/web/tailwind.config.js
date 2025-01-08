@@ -20,6 +20,7 @@ module.exports = {
       },
       animation: {
         scroll: 'scroll 10s linear infinite',
+        scrollMobile: 'scroll 5s linear infinite',
       },
       colors: {
         border: 'hsl(var(--border))',

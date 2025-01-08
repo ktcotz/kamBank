@@ -60,6 +60,7 @@ export const LanguageSwitcher = () => {
             {languages.map(({ name, variant }) => (
               <Button
                 variant="ghost"
+                key={name}
                 className="justify-start gap-2"
                 onClick={() => handleChangeLanguage(variant)}
               >

@@ -10,6 +10,7 @@ import {
   LanguageSwitcher,
   InfiniteScrollGallery,
 } from './../features/ui';
+import { rootScrollGallery } from './../features/ui/InfiniteScrollGallery/data/data';
 
 export const Root = () => {
   const { t } = useTranslation();
@@ -83,16 +84,7 @@ export const Root = () => {
         </div>
       </Wrapper>
       <Wrapper className="px-4 sm:px-6 lg:px-8">
-        <InfiniteScrollGallery
-          images={[
-            './images/hero.png',
-            './images/hero.png',
-            './images/hero.png',
-            './images/hero.png',
-            './images/hero.png',
-            './images/hero.png',
-          ]}
-        />
+        <InfiniteScrollGallery images={rootScrollGallery} />
       </Wrapper>
     </div>
   );
