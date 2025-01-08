@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import './lib/i18n/i18n';
-import { FullScreenLoader } from './ui/shared/ui/FullScreenLoader';
+import { FullScreenLoader } from './features/ui/FullScreenLoader';
 
 const Root = lazy(async () => {
   const module = await import('./pages/Root.tsx');

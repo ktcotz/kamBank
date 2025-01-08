@@ -1,4 +1,4 @@
-import { NavigationI18NHandler } from './../../../../lib/i18n/i18n.types';
+import { NavigationI18NHandler } from './../../../lib/i18n/i18n.types';
 import { GlobalRoutes } from './../../../shared/types/types';
 
 export type NavigationListItemsData = {

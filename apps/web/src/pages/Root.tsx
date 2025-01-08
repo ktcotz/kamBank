@@ -1,11 +1,15 @@
-import { rootPageLayoutLinks } from './../ui/layout/Navbar/data/data';
-import { Navbar } from '../ui/layout/Navbar/Navbar';
+import { rootPageLayoutLinks } from './../layout/Navbar/data/data';
+import { Navbar } from '../layout/Navbar/Navbar';
 import { Button } from '@./ui';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { GlobalRoutes } from './../ui/shared/types/types';
-import { ButtonAnimated, Wrapper } from './../ui/shared/ui';
-import { LanguageSwitcher } from './../ui/shared/ui/LanguageSwitcher';
+import { GlobalRoutes } from './../shared/types/types';
+import {
+  ButtonAnimated,
+  Wrapper,
+  LanguageSwitcher,
+  InfiniteScrollGallery,
+} from './../features/ui';
 
 export const Root = () => {
   const { t } = useTranslation();
@@ -77,6 +81,18 @@ export const Root = () => {
             </picture>
           </div>
         </div>
+      </Wrapper>
+      <Wrapper className="px-4 sm:px-6 lg:px-8">
+        <InfiniteScrollGallery
+          images={[
+            './images/hero.png',
+            './images/hero.png',
+            './images/hero.png',
+            './images/hero.png',
+            './images/hero.png',
+            './images/hero.png',
+          ]}
+        />
       </Wrapper>
     </div>
   );

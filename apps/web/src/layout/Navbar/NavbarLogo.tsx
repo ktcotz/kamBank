@@ -1,4 +1,4 @@
-import { Logo } from './../../shared/ui/Logo';
+import { Logo } from './../../features/ui';
 
 export const NavbarLogo = () => {
   return <Logo />;

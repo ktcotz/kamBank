@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Wrapper } from '../../shared/ui/Wrapper';
+import { Wrapper } from '../../features/ui';
 import { NavbarList } from './NavbarList';
 import { NavbarLogo } from './NavbarLogo';
 import { NavbarHamburger } from './NavbarHamburger';

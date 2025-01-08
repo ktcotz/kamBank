@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { GlobalRoutes } from '../types/types';
+import { GlobalRoutes } from './../../shared/types/types';
 
 export const Logo = () => {
   return (
